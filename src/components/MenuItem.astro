@@ -1,0 +1,13 @@
+---
+// src/components/MenuItem.astro
+const { name, ingredients, price } = Astro.props;
+---
+
+<div
+  class="menu-item"
+  style="border: 1px solid #ddd; margin: 1rem; padding: 1rem; border-radius: 8px; width: 200px; background-color: #fff;"
+>
+  <h3 style="color: #ff6347;">{name}</h3>
+  <p>{ingredients}</p>
+  <p><strong>{price} €</strong></p>
+</div>
