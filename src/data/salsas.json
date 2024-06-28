@@ -1,0 +1,21 @@
+{
+    "salsas": [
+      {
+        "nombre": "Salmorejo o Mojo Picón",
+        "precio": "Gratis"
+      },
+      {
+        "nombre": "Mahonesa (sobre)",
+        "precio": 0.15
+      },
+      {
+        "nombre": "Alioli (sobre)",
+        "precio": 0.15
+      },
+      {
+        "nombre": "Ketchup (sobre)",
+        "precio": 0.15
+      }
+    ]
+  }
+  

@@ -1,41 +1,58 @@
 ---
-// src/components/MenuItem.astro
+// src/components/BocataItem.astro
 
 const { name, ingredients, pricePequeno, priceGrande } = Astro.props;
 ---
 
 <style>
-  .menu-item {
+  .bocata-item {
     border: 1px solid #ddd;
     margin: 1rem;
     padding: 1rem;
     border-radius: 8px;
-    width: 200px;
     background-color: #fff;
-    cursor: pointer;
     transition:
       transform 0.2s,
       box-shadow 0.2s;
   }
 
-  .menu-item:hover {
+  .bocata-item:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .menu-item h3 {
+  .bocata-item summary {
     color: #ff6347;
-    margin-bottom: 0.5rem;
+    font-weight: bold;
+    list-style: none;
+    cursor: pointer;
   }
 
-  .menu-item p {
+  .bocata-item p {
     margin: 0.5rem 0;
+  }
+
+  details[open] summary ~ * {
+    animation: sweep 0.5s ease-in-out;
+  }
+
+  @keyframes sweep {
+    0% {
+      opacity: 0;
+      margin-top: -10px;
+    }
+    100% {
+      opacity: 1;
+      margin-top: 0px;
+    }
   }
 </style>
 
-<div class="menu-item">
-  <h3>{name}</h3>
+<details class="bocata-item">
+  <summary>
+    <h3>{name}</h3>
+  </summary>
   <p>Ingredientes: {ingredients}</p>
   <p>Precio Pequeño: €{pricePequeno.toFixed(2)}</p>
   <p>Precio Grande: €{priceGrande.toFixed(2)}</p>
-</div>
+</details>

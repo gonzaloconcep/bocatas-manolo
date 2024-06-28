@@ -1,0 +1,55 @@
+---
+// src/components/Salsas.astro
+import salsas from '../data/salsas.json';
+
+const salsasData = salsas.salsas;
+---
+
+<style>
+  .salsa-item {
+    border: 1px solid #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    background-color: #fff;
+    transition:
+      transform 0.2s,
+      box-shadow 0.2s;
+  }
+
+  .salsa-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .salsa-item h3 {
+    color: #ff6347;
+    margin-bottom: 0.5rem;
+  }
+
+  .salsa-item p {
+    margin: 0.5rem 0;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+</style>
+
+<h2>Salsas</h2>
+<div class="menu">
+  {
+    salsasData.map((salsa) => (
+      <div class="salsa-item" accesskey={salsa.nombre}>
+        <h3>{salsa.nombre}</h3>
+        <p>
+          Precio:{' '}
+          {salsa.precio === 'Gratis' ? salsa.precio : `€${salsa.precio}`}
+        </p>
+      </div>
+    ))
+  }
+</div>
