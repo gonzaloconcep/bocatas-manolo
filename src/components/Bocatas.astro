@@ -1,0 +1,21 @@
+---
+// src/components/Bocatas.astro
+import bocatas from '../data/bocatas.json';
+import BocataItem from './BocataItem.astro';
+
+const bocadillosData = bocatas.bocatas;
+---
+
+<h2>Menú de Bocadillos</h2>
+<div class="menu">
+  {
+    bocadillosData.map((bocadillo) => (
+      <BocataItem
+        name={bocadillo.nombre}
+        ingredients={bocadillo.ingredientes}
+        pricePequeno={bocadillo.precios.pequeño}
+        priceGrande={bocadillo.precios.grande}
+      />
+    ))
+  }
+</div>

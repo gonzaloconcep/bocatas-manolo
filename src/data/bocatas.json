@@ -1,0 +1,276 @@
+{
+  "bocatas": [
+    {
+      "nombre": "TORRENTE",
+      "ingredientes": "Salchichas",
+      "precios": {
+        "pequeño": 1.60,
+        "grande": 1.90
+      }
+    },
+    {
+      "nombre": "DON TORTILLON",
+      "ingredientes": "Tortilla de patatas",
+      "precios": {
+        "pequeño": 1.70,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "GENUINO",
+      "ingredientes": "Carne mechada",
+      "precios": {
+        "pequeño": 1.70,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "HOMER",
+      "ingredientes": "Beicon",
+      "precios": {
+        "pequeño": 1.70,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "PIPO",
+      "ingredientes": "Lomo adobado",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "BELLOTA",
+      "ingredientes": "Cochinillo",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "CAVERNICOLA",
+      "ingredientes": "Beicon + Queso",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "CLASICO",
+      "ingredientes": "Carne Mechada + Queso",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "JAMON - JAMON",
+      "ingredientes": "Jamón York + Jamón Serrano",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "QUESO - QUESO",
+      "ingredientes": "Queso + Roquefort",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "REMO",
+      "ingredientes": "Cochinillo + Queso",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "SANETE",
+      "ingredientes": "Jamón York + Queso",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "SPIDERMAN",
+      "ingredientes": "Salami + Queso",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.30
+      }
+    },
+    {
+      "nombre": "SAN PEDRO",
+      "ingredientes": "Carne Mechada + Jamón Serrano",
+      "precios": {
+        "pequeño": 2.50,
+        "grande": 3.00
+      }
+    },
+    {
+      "nombre": "AUTENTICO",
+      "ingredientes": "Carne Mechada + Lomo + Jamón Serrano",
+      "precios": {
+        "pequeño": 2.50,
+        "grande": 3.00
+      }
+    },
+    {
+      "nombre": "CAMPEON",
+      "ingredientes": "Tortilla + Jamón Serrano",
+      "precios": {
+        "pequeño": 2.50,
+        "grande": 3.00
+      }
+    },
+    {
+      "nombre": "CENTRAL PARK",
+      "ingredientes": "Carne + Cochinillo + Jamón Serrano",
+      "precios": {
+        "pequeño": 2.50,
+        "grande": 3.00
+      }
+    },
+    {
+      "nombre": "CAMARON",
+      "ingredientes": "Cochinillo + Beicon + Lomo adobado",
+      "precios": {
+        "pequeño": 2.50,
+        "grande": 3.00
+      }
+    },
+    {
+      "nombre": "GIBRALTAR",
+      "ingredientes": "Jamón York + Queso + Chorizo",
+      "precios": {
+        "pequeño": 2.50,
+        "grande": 3.00
+      }
+    },
+    {
+      "nombre": "GIRALDA",
+      "ingredientes": "Carne Mechada + Lomo adobado",
+      "precios": {
+        "pequeño": 2.50,
+        "grande": 3.00
+      }
+    },
+    {
+      "nombre": "GRAN VÍA",
+      "ingredientes": "Carne + Cochinillo + Jamón Serrano",
+      "precios": {
+        "pequeño": 2.50,
+        "grande": 3.00
+      }
+    },
+    {
+      "nombre": "GRANADA",
+      "ingredientes": "Carne Mechada + Beicon + Queso",
+      "precios": {
+        "pequeño": 2.50,
+        "grande": 3.00
+      }
+    },
+    {
+      "nombre": "JAMON - QUESO",
+      "ingredientes": "Jamón York + Queso + Tortilla",
+      "precios": {
+        "pequeño": 2.50,
+        "grande": 3.00
+      }
+    },
+    {
+      "nombre": "IMPRESIONANTE",
+      "ingredientes": "Lomo al whisky",
+      "precios": {
+        "pequeño": 2.60,
+        "grande": 3.10
+      }
+    },
+    {
+      "nombre": "FLIPAS",
+      "ingredientes": "Impresionante + Queso",
+      "precios": {
+        "pequeño": 2.70,
+        "grande": 3.20
+      }
+    },
+    {
+      "nombre": "GUASA",
+      "ingredientes": "Carne Mechada + Queso + Beicon",
+      "precios": {
+        "pequeño": 3.20,
+        "grande": 3.80
+      }
+    },
+    {
+      "nombre": "KING - KONG",
+      "ingredientes": "Carne Mechada + Queso + Jamón Serrano",
+      "precios": {
+        "pequeño": 3.50,
+        "grande": 4.10
+      }
+    },
+    {
+      "nombre": "BIPLEX",
+      "ingredientes": "Carne Mechada + Lomo + Beicon + Cochinillo",
+      "precios": {
+        "pequeño": 3.60,
+        "grande": 4.10
+      }
+    },
+    {
+      "nombre": "TITANIC",
+      "ingredientes": "Carne Mechada + Queso + Lomo + Beicon",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.50
+      }
+    },
+    {
+      "nombre": "PATRIOTA",
+      "ingredientes": "Carne Mechada + Queso + Jamón Serrano",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.50
+      }
+    },
+    {
+      "nombre": "TWISTER",
+      "ingredientes": "Carne Mechada + Queso + Lomo",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.50
+      }
+    },
+    {
+      "nombre": "TURBO",
+      "ingredientes": "Cochinillo + Lomo + Queso + Beicon",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.50
+      }
+    },
+    {
+      "nombre": "NUBLAITO",
+      "ingredientes": "Carne Mechada + Queso + Lomo + Jamón Serrano",
+      "precios": {
+        "pequeño": 1.90,
+        "grande": 2.50
+      }
+    },
+    {
+      "nombre": "ABUSO",
+      "ingredientes": "Extra Carnico + Queso + Jamón Serrano",
+      "precios": {
+        "pequeño": 4.20,
+        "grande": 4.70
+      }
+    }
+  ]
+}
