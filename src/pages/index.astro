@@ -92,41 +92,67 @@ import { MetricsWaveEvents } from '../api/metricswave/metricswave-events';
         text-align: center;
         padding: 2rem;
       }
+      nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 1rem;
+        z-index: 1000;
+        text-align: center;
+      }
+      nav a {
+        color: #fff;
+        margin: 0 1rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .content {
+        margin-top: 80px; /* Height of the fixed nav */
+      }
     </style>
   </head>
   <body>
-    <header>
+    <nav>
+      <a href="#home">Inicio</a>
+      <a href="#menu">Menú</a>
+      <a href="#salsas">Salsas</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+    <header id="home">
       <h1 class="main-title">Bocatas Manolo</h1>
       <img src="/bocatas-manolo.jpeg" alt="Bocatas Manolo" class="header-img" />
-      <h2>
-        En Sevilla, la Giralda, la Torre del Oro y... Los bocatas de Manolo.
-      </h2>
+      <h2>Tradición y Sabor en el Corazón de Los Remedios</h2>
     </header>
 
     <section class="section">
+      <h2>Bocatas Manolo: Tradición y Sabor en el Corazón de Los Remedios</h2>
+      <p>
+        En Bocatas Manolo, te ofrecemos una experiencia única en el barrio de
+        Los Remedios, Sevilla. Con años de tradición, nuestro local es conocido
+        por la calidad y el sabor inigualable de nuestros bocadillos. Manolo, el
+        dueño, corta y prepara cada bocata personalmente, asegurándose de que
+        cada uno salga caliente y delicioso del horno. Ven y disfruta de
+        nuestros precios justos y la atención cercana que nos caracteriza. ¡Te
+        esperamos para compartir un momento de auténtico sabor sevillano!
+      </p>
       <button class="cta-button">¡Ven a Visitarnos!</button>
     </section>
 
-    <section class="section">
-      <h2>Bocatas Manolo: El Auténtico Sabor de Siempre en Los Remedios</h2>
-      <p>
-        En el corazón del barrio de Los Remedios se encuentra Bocatas Manolo, un
-        rincón con solera donde la tradición se respira en cada bocadillo.
-        Manolo, con su dedicación y esmero, prepara y corta personalmente cada
-        ingrediente, ofreciendo bocatas recién horneados que conquistan a todos.
-        Con precios accesibles y una atención cálida, Bocatas Manolo es tu lugar
-        de confianza para disfrutar de un buen bocadillo en Sevilla. ¡Ven a
-        probar el sabor de toda la vida!
-      </p>
-    </section>
-
-    <section class="section">
+    <section class="section" id="menu">
       <h2>Nuestra Carta</h2>
       <Bocatas />
+    </section>
+
+    <section class="section" id="salsas">
+      <h2>Salsas</h2>
       <Salsas />
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <h3>Contáctanos</h3>
       <p>Dirección: Calle Ejemplo, 123, Sevilla</p>
       <p>Teléfono: 123-456-789</p>
